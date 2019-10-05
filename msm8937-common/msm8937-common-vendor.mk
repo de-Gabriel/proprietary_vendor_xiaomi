@@ -128,6 +128,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8937-common/proprietary/lib64/libaptXHD_encoder.so:system/lib64/libaptXHD_encoder.so \
     vendor/xiaomi/msm8937-common/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/xiaomi/msm8937-common/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib64/lib-imsrcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsrcs.so \
     vendor/xiaomi/msm8937-common/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/xiaomi/msm8937-common/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
     vendor/xiaomi/msm8937-common/proprietary/lib64/lib-imsvtextutils.so:system/lib64/lib-imsvtextutils.so \
@@ -313,6 +314,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8937-common/proprietary/vendor/lib/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsdpl.so \
     vendor/xiaomi/msm8937-common/proprietary/vendor/lib/lib-imsqimf.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsqimf.so \
     vendor/xiaomi/msm8937-common/proprietary/vendor/lib/lib-imsrcs-v2.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcs-v2.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib/lib-imsrcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcs.so \
     vendor/xiaomi/msm8937-common/proprietary/vendor/lib/lib-imsrcsbaseimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsrcsbaseimpl.so \
     vendor/xiaomi/msm8937-common/proprietary/vendor/lib/lib-imsxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsxml.so \
     vendor/xiaomi/msm8937-common/proprietary/vendor/lib/lib-rtpcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-rtpcommon.so \
