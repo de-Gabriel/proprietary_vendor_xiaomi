@@ -834,6 +834,9 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     QtiTelephonyService \
+    radioconfig \
+    Klik \
+    datastatusnotification \
     imssettings \
     uceShimService \
     CNEService \
