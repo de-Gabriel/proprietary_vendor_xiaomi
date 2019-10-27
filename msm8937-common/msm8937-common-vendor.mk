@@ -141,8 +141,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8937-common/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
     vendor/xiaomi/msm8937-common/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
     vendor/xiaomi/msm8937-common/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
-    vendor/xiaomi/msm8937-common/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
-    vendor/xiaomi/msm8937-common/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/xiaomi/msm8937-common/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/xiaomi/msm8937-common/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/xiaomi/msm8937-common/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
@@ -794,7 +792,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8937-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so \
     vendor/xiaomi/msm8937-common/proprietary/vendor/lib64/vendor.qti.imsrtpservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/xiaomi/msm8937-common/proprietary/vendor/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.latency@2.0.so \
-    vendor/xiaomi/msm8937-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db
+    vendor/xiaomi/msm8937-common/proprietary/vendor/radio/qcril_database/qcril.db:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/qcril.db \
+    vendor/xiaomi/msm8937-common/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
+    vendor/xiaomi/msm8937-common/proprietary/product/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qti-telephony-common.jar \
+    vendor/xiaomi/msm8937-common/proprietary/product/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimscamera_jni.so \
+    vendor/xiaomi/msm8937-common/proprietary/product/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimsmedia_jni.so \
 
 PRODUCT_PACKAGES += \
     libantradio \
